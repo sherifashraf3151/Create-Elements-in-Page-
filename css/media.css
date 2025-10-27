@@ -1,15 +1,19 @@
 /* Small phones */
 @media (min-width: 0px) and (max-width: 426px) {
-  
+  form {
+    * {
+      width: 100%;
+    }
+  }
 }
 
 /* Large phones / Small tablets */
 @media (min-width: 427px) and (max-width: 769px) {
-form {
-  * {
+  form {
+    * {
       width: 100%;
+    }
   }
-}
 }
 
 /* Tablets / Small laptops */
@@ -30,7 +34,4 @@ form {
 /* Ultra wide / 4K screens */
 @media (min-width: 2562px) {
 
-
 }
-
-
