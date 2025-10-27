@@ -6,7 +6,10 @@
 /* Large phones / Small tablets */
 @media (min-width: 427px) and (max-width: 769px) {
 form {
-  width: 100%;
+  * {
+      width: 100%;
+  }
+}
 }
 
 /* Tablets / Small laptops */
@@ -29,4 +32,5 @@ form {
 
 
 }
+
 
